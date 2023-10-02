@@ -1,0 +1,193 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  background-color: rgb(0,0,33);
+  color: white;
+  font-family: "poppins" sans-serif;
+}
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 80px;
+  background-color: rgb(18,18,62);
+}
+nav ul{
+  display: flex;
+  align-items: center;
+}
+nav ul li{
+  list-style: none;
+  justify-content: space-around;
+  margin: 0px 25px;
+}
+nav ul li a{
+  text-decoration: none;
+  color: white
+}
+nav ul li a:hover {
+  color: rgb(153,153,216);
+  font-size: .9rem;
+}
+.left{
+  font-size: 1.6rem;
+}
+.firstsection{
+  display: flex;
+  justify-content: space-around;
+  align-items: center; 
+  margin: 80px 0px;
+}
+.firstsection > div{
+  width: 30%;
+}
+.leftsection{
+font-size: 2.5rem;
+}
+.rightsection img{
+  width: 80%;
+  margin: 60px 10px;
+}
+.purple{
+  color: #6f2da8;
+}
+#element{
+  color: #6f2da8;
+}
+#learn{
+  padding: 30px;
+}
+.learninglist{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+  grid-gap: 50px;
+  margin-top: 50px;
+}
+.learninglist a{
+  color: white;
+  text-decoration: none;
+  margin-top: 20px;
+  font-size: 10px;
+  display: inline-block;
+}
+.learninglist div h2{
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.learninglist div{
+  background-color: #262626;
+  padding: 40px;
+  font-size: 6px;
+  font-weight: 300;
+  border-radius: 10px;
+  transition: background 0.5s, translate 0.5s;
+}
+.learninglist div:hover{
+  background: #ff004f;
+  transform: translateY(-10px)
+}
+#contact .social img{
+  width: 50px;
+  height: 50px;
+}
+.c img{
+  height: 100px;
+  width: 100px;
+  margin: 50px;
+}
+.cpp img{
+  height: 100px;
+  width: 100px;
+  margin: 50px;
+}
+.python img{
+  height: 100px;
+  width: 100px;
+  margin: 50px;
+}
+.css img{
+  height: 100px;
+  width: 100px;
+  margin: 50px;
+}
+.java img{
+  height: 100px;
+  width: 100px;
+  margin: 50px;
+}
+.html img{
+  height: 100px;
+  width: 100px;
+  margin: 50px;
+}
+.jovian img{
+  height: 100px;
+  width: 100px;
+  margin: 50px;
+}
+.js img{
+  height: 100px;
+  width: 100px;
+  margin: 50px;
+}
+.dsa img{
+  height: 100px;
+  width: 100px;
+  margin: 50px;
+}
+.lc{
+  flex-basis: 35%;
+}
+.social{
+  margin-top: 30px;
+}
+.social a{
+  text-decoration: none;
+  font-size: 30px;
+  margin-right: 15px;
+  color: #ababab;
+  display: inline-block;
+}
+.social a:hover{
+  color: #ff004f;
+  transform: translateY(-5px);
+}
+.lc{
+  padding: 30px;
+}
+.lc p{
+  padding: 20px;
+}
+.rc{
+  flex-basis: 60%;
+}
+.rc form{
+  width: 100%;
+}
+form input, form textarea{
+  width: 100%;
+  border: 0px;
+  outline: none;
+  background: #262626;
+  padding: 15px;
+  margin: 15px 0;
+  color: #fff;
+  font-size: 15px;
+  border-radius: 6px;
+}
+.btn{
+  background: #ff004f;
+  padding: 10px;
+  margin-left: 450px;
+}
+p span{
+  justify-content: space space-around;
+}
+.left img{
+  width: 70px;
+  padding-left: 20px;
+}
+ 
