@@ -197,5 +197,6 @@ p span{
 }
 .copy{
   color: grey;
-  margin-left: 325px;
+  margin-left: 25px;
+  font-size: 10px;
 }
